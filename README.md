@@ -9,6 +9,20 @@ disease, and coronary heart disease, to estimate the severity of health inequali
 
 The first part of the script aims to join covariates onto a pre-existing dataset containing the Standardised Morbitity Ratio (SMR) for each Lower Tier Local Authority Area (LTLA) in England. These covariates are listed as: ethnicity, deprivation and percentage smokers prevalence. The second part of the report is the Exploratory analysis, where the goal is to investigate any variable relationships which may show themselves through a variety of graphical and numerical summaries. The last part, a formal analysis, aims to find estimates of each diseases' risk with more precision through the comparison of two types of Conditional AutoRegressive models, the Leroux CAR model and a multivarite Leroux CAR model.
 
+## Required R packages
+
+- tidyverse
+- sf
+- tmap
+- maps
+- ggplot2
+- gridExtra
+- grid
+- ggthemes
+- cowplot
+- mgcv
+- spdep
+
 ## Part One: Joining the Datasets
 
 The deaths and population data required to calculate the SMR for each LTLA in England was acquired from the Office for National Statistics online, and is from the year 2020. The statistical release of the English indices of deprivation 2019 allowed the acquirement of income deprivation scores for the year 2019. Additionally, Asian and Black ethnic group data was acquired from the 2021 UK Census. Smoking prevalence data was also obtained from the Office for National Statistics. Keep note that due to the lack of public data online the data is not all from the same years, however, I tried to keep it as close as possible. The list of covariates in the final dataset for each cause of death can be described as follows:
