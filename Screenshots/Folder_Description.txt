@@ -1,7 +1,8 @@
 This folder contains some the different images produced by the R script.
 
 Image 1: The Local Tier Local Authorities borders outlined on a map of England.
-Image 2: Estimated risk estimates for cancer from final CAR model on a map of England.
-Image 3: Estimated risk estimates for circulatory disease from final CAR model on a map of England.
-Image 4: Estimated risk estimates for heart disease from final CAR model on a map of England.
-Image 5: Three boxplots showing the difference in variation in estimated risk for the three diseases covered.
+Image 2: A scatterplot of SMR against Income Deprivation Score.
+Image 3: Estimated risk estimates for cancer from final CAR model on a map of England.
+Image 4: Estimated risk estimates for circulatory disease from final CAR model on a map of England.
+Image 5: Estimated risk estimates for heart disease from final CAR model on a map of England.
+Image 6: Three boxplots showing the difference in variation in estimated risk for the three diseases covered.
